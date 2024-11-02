@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="css/menu.css">
+    <title>Djadug Furniture</title>
+</head>
+<body>
+    <header>
+        <h1>Djadug Furniture</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Beranda</a></li>
+                <li><a href="#products">Produk</a></li>
+                <li><a href="#paket">Paket</a></li>
+                <li><a href="#regis">Registrasi</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="home" id="home">
+            <div class="home-content">
+                <div class="text-container">
+                    <img src="image/logo/logo.jpeg" alt="Furniture Logo" width="200" class="img-fluid" id="logo">
+                    <p class="lead">Selamat datang di toko furniture kami! Temukan furniture berkualitas premium yang menghadirkan kenyamanan dan gaya di rumah Anda. Jelajahi berbagai koleksi furniture modern, klasik, dan unik yang disesuaikan dengan selera Anda.</p>
+                </div>
+                <div class="video-container">
+                    <video width="320" height="240" controls>
+                        <source src="video/vid-home.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+            </div>
+        </section>
+
+        <section class="products" id="products">
+            <h2>Produk Kami</h2>
+            <div class="product-card" onclick="showAlert('Nakas1')">
+                <img src="image/nakas/nakas1.jpg" alt="nakas">
+                <h3>Nakas 1</h3>
+            </div>
+            <div class="product-card" onclick="showAlert('Nakas2')">
+                <img src="image/nakas/nakas2.jpg" alt="nakas">
+                <h3>Nakas 2</h3>
+            </div>
+            <div class="product-card" onclick="showAlert('Nakas3')">
+                <img src="image/nakas/nakas3.jpg" alt="nakas">
+                <h3>Nakas 3</h3>
+            </div>
+            <div class="product-card" onclick="showAlert('Kursi1')">
+                <img src="image/kursi/kursi1.jpeg" alt="kursi">
+                <h3>Kursi 1</h3>
+            </div>
+            <div class="product-card" onclick="showAlert('Kursi2')">
+                <img src="image/kursi/kursi2.jpeg" alt="kursi">
+                <h3>Kursi 2</h3>
+            </div>
+            <div class="product-card" onclick="showAlert('Kursi3')">
+                <img src="image/kursi/kursi3.jpeg" alt="kursi">
+                <h3>Kursi 3</h3>
+            </div>
+            <div class="product-card" onclick="showAlert('Kursi4')">
+                <img src="image/kursi/kursi4.jpeg" alt="kursi">
+                <h3>Kursi 4</h3>
+            </div>
+            <div class="product-card" onclick="showAlert('Sofa Minimalis 1')">
+                <img src="image/kursi/5.jpg" alt="Sofa">
+                <h3>Sofa Minimalis 1</h3>
+            </div>
+            <div class="product-card" onclick="showAlert('Sofa Minimalis 2')">
+                <img src="image/kursi/6.jpg" alt="Sofa">
+                <h3>Sofa Minimalis 2</h3>
+            </div>
+            <div class="product-card" onclick="showAlert('Sofa Minimalis 3')">
+                <img src="image/kursi/7.jpg" alt="Sofa">
+                <h3>Sofa Minimalis 3</h3>
+            </div>
+            <div class="product-card" onclick="showAlert('Sofa Minimalis 4')">
+                <img src="image/kursi/88.jpg" alt="Sofa">
+                <h3>Sofa Minimalis 4</h3>
+            </div>
+            <div class="product-card" onclick="showAlert('Sofa Minimalis 5')">
+                <img src="image/kursi/9.jpeg" alt="Sofa">
+                <h3>Sofa Minimalis 5</h3>
+            </div>
+            <div class="product-card" onclick="showAlert('Sofa Minimalis 6')">
+                <img src="image/kursi/100.jpg" alt="SSofa">
+                <h3>Sofa Minimalis 6</h3>
+            </div>
+            <div class="product-card" onclick="showAlert('Sofa Minimalis 7')">
+                <img src="image/kursi/11.jpeg" alt="Sofa">
+                <h3>Sofa Minimalis 7</h3>
+            </div>
+        </section>
+
+        <section class="pricing-section" id="paket">
+            <h2 class="pricing-title">Paket Langganan</h2>
+            <table class="pricing-table table table-striped">
+                <thead>
+                    <tr>
+                        <th>Package</th>
+                        <th>Harga</th>
+                        <th>Feature</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Basic</td>
+                        <td>$50/bulan</td>
+                        <td>Akses ke item yang dipilih</td>
+                    </tr>
+                    <tr>
+                        <td>Premium</td>
+                        <td>$100/bulan</td>
+                        <td>Akses ke semua item dan pesanan khusus</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section class="official-section">
+            <h2 class="official-title">Official Website</h2>
+            <div class="official-website">
+                <a href="https://www.tokopedia.com/discovery/rekomendasi?recomProdId=12993485662&utm_source=google&utm_medium=cpc&utm_campaign=0000-0000-gg-pmax-brch-pur-tcpa-act-ord-pg-id51pgce51-0000-alon-gshp&utm_term=12993485662&ref=googleshopping&c=21509908476&m=466501007&gclsrc=aw.ds&gad_source=1&gclid=CjwKCAjw-JG5BhBZEiwAt7JR64A1M7DnypkWOPzGYwEuazhxz1-Bs9uIs5I6kGRZQIqIbr1NZaU8CBoCQukQAvD_BwE" target="_blank" class="official-link">Visit Our Official Website</a>
+            </div>
+        </section>
+
+        <section class="registration section" id="regis">
+            <h2 class="section-title">Registrasi</h2>
+        
+            <div class="registration__container bd-grid">
+                <form action="" class="registration__form">
+                    <input type="text" placeholder="Nama" class="registration__input" required>
+                    <input type="email" placeholder="Email" class="registration__input" required>
+                    <input type="password" placeholder="Password" class="registration__input" required>
+                    
+                    <label for="paket">Pilih Jenis Paket Berlangganan:</label>
+                    <select id="paket" class="registration__input" required>
+                        <option value="" disabled selected>Pilih Paket</option>
+                        <option value="paket1">Paket 1</option>
+                        <option value="paket2">Paket 2</option>
+                        <option value="paket3">Paket 3</option>
+                    </select>
+                    
+                    <div class="terms">
+                        <input type="checkbox" id="terms" required>
+                        <label for="terms">Saya setuju dengan syarat dan ketentuan</label>
+                    </div>
+                    
+                    <input type="submit" value="Daftar" class="registration__button button">
+                </form>
+            </div>
+        </section>
+        
+    </main>
+
+    <footer class="footer">
+        <p class="footer__title">Nico Djadug Apriliano </p>
+        <div class="footer__social">
+            <a href="https://www.facebook.com/niko.djadug.3?mibextid=LQQJ4d" class="footer__icon" target="_blank">
+                <i class='bx bxl-facebook'></i>
+            </a>
+            <a href="https://www.instagram.com/djaduggg/profilecard" class="footer__icon" target="_blank">
+                <i class='bx bxl-instagram'></i>
+            </a>
+            <a href="https://github.com/Djadug" class="footer__icon" target="_blank">
+                <i class='bx bxl-github'></i>
+            </a>
+        </div>
+        <p class="footer__copy">&#169; Djadug Furniture. All rights reserved</p>
+    </footer>
+    
+    <script src="js/menu.js"></script>  
+</body>
+</html>
